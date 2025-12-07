@@ -1,0 +1,155 @@
+body{
+    margin:0;
+}
+.header{
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.iconarea{ 
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap:10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.iconntext{
+    font-weight: strong;
+}
+.menu_area{
+    margin-right: 10px;
+}
+li{
+    padding: 5px;
+    border-radius: 2px;
+    transition: transform 0.5s,background-color 0.5s, border-bottom 0.5s;
+}
+li:hover{
+    transform:scale(1.1);
+    background-color:aliceblue;
+    border-bottom: 2px solid black  ;
+    cursor:pointer;
+}
+.maincontent{
+    background-color: lightblue;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.aboutme{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: space-evenly;
+     
+}
+.mysidephoto{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.sidematter{
+    max-width:700px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.myworks{
+    text-align: center;
+    background-color: aliceblue;
+    margin-top:0px;
+}
+ 
+.card1, .card2, .card3{
+    flex: 1 1 300px;
+    max-width: 400px;
+    border:1px solid black;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 1s;
+    background-color: aliceblue;
+}
+.card1 img, .card2 img, .card3 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+    background-color: aliceblue;
+}
+.mypani {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    background-color: aliceblue;
+    margin-top: 0px;
+}
+.g1, .g2, .g3, .g4, .g5, .g6 {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 1s;
+    border-radius: 10px;
+    background-color: aliceblue;
+    /* Remove display: flex and alignment from individual images */
+}
+
+.gallery-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+.gallerytext{
+    text-align: center;
+    font-size: 3xrem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+.g1:hover,.g2:hover, .g3:hover, .g4:hover, .g5:hover, .g6:hover{
+    transform: scale(1.1);
+}
+.card1:hover, .card2:hover, .card3:hover{
+    transform: scale(1.1);
+}
+.footer{
+    text-align: center;
+    background-color: rgb(43, 9, 9);
+    color: white;
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
